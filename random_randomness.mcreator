@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "Salamaleikum",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salamaleikum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_randomness/advancements/salamaleikum.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.salamaleikum.title": "Salamaleikum",
+      "advancements.salamaleikum.descr": "grani"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "random_randomness",
+    "modName": "random randomness",
+    "version": "1.0.0",
+    "author": "Luiek, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.randomrandomness",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
