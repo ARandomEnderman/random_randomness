@@ -29,9 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.randomrandomness.init.RandomRandomnessModItems;
-import net.mcreator.randomrandomness.init.RandomRandomnessModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -49,10 +46,6 @@ public class RandomRandomnessMod {
 	public RandomRandomnessMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		RandomRandomnessModBlocks.REGISTRY.register(bus);
-
-		RandomRandomnessModItems.REGISTRY.register(bus);
 
 	}
 
