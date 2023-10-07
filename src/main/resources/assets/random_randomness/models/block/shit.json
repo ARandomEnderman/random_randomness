@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_randomness:block/s",
+    "up": "random_randomness:block/s",
+    "north": "random_randomness:block/s",
+    "east": "random_randomness:block/s",
+    "south": "random_randomness:block/s",
+    "west": "random_randomness:block/s",
+    "particle": "random_randomness:block/s"
+  },
+  "render_type": "solid"
+}

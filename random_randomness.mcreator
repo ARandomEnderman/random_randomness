@@ -11,6 +11,21 @@
           "src/main/resources/data/random_randomness/advancements/salamaleikum.json"
         ]
       }
+    },
+    {
+      "name": "Shit",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomrandomness/block/ShitBlock.java",
+          "src/main/resources/assets/random_randomness/blockstates/shit.json",
+          "src/main/resources/assets/random_randomness/models/item/shit.json",
+          "src/main/resources/assets/random_randomness/models/block/shit.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -18,7 +33,8 @@
   "language_map": {
     "en_us": {
       "advancements.salamaleikum.title": "Salamaleikum",
-      "advancements.salamaleikum.descr": "grani"
+      "advancements.salamaleikum.descr": "grani",
+      "block.random_randomness.shit": "Shit"
     }
   },
   "foldersRoot": {
